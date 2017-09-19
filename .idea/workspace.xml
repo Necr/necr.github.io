@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="109c8c2b-c1a8-43fe-9c8e-57cf0a0f71e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="109c8c2b-c1a8-43fe-9c8e-57cf0a0f71e5" name="Default" comment="" />
     <ignored path="necr.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -256,15 +253,15 @@
       <workItem from="1505713078380" duration="25000" />
       <workItem from="1505713172791" duration="1173000" />
       <workItem from="1505795447773" duration="1601000" />
-      <workItem from="1505820321790" duration="1707000" />
+      <workItem from="1505820321790" duration="1825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4506000" />
+    <option name="totallyTimeSpent" value="4624000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="352" y="23" width="1568" height="986" extended-state="0" />
+    <frame x="352" y="23" width="1568" height="986" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19327731" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
