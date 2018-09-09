@@ -26,4 +26,5 @@ body, html{
 .layOut header img{
     height: 100%;
     margin-left: 2rem;
+    vertical-align: top;
 }
