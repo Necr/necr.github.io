@@ -1,12 +1,26 @@
 <div class="layOut">
-    <header>
-        <img class="logo" src="./imgs/header.jpeg" alt="头像" ng-click="showLogo()">
-        <div>
-            <ul class="tabs">
-                <li>
-                    <a href="#!/">首页</a>
+    <div class="sui-navbar">
+        <div class="navbar-inner"><a href="#!/" class="sui-brand" ng-click="showLogo('header.jpeg')">deja vu</a>
+            <ul class="sui-nav">
+                <li class="active"><a href="#">首页</a></li>
+                <li><a href="#">组件</a></li>
+                <li class="sui-dropdown"><a href="javascript:void(0);" data-toggle="dropdown" class="dropdown-toggle">其他
+                    <i class="caret"></i></a>
+                    <ul role="menu" class="sui-dropdown-menu">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">关于</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">项目组成员</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">版权</a></li>
+                    </ul>
                 </li>
             </ul>
+            <ul class="sui-nav pull-right">
+                <li><a href="#">个人中心</a></li>
+                <li><a href="#">帮助</a></li>
+            </ul>
+            <form class="sui-form sui-form pull-right">
+                <input type="text" placeholder="暂无搜索功能...">
+                <button class="sui-btn">搜索</button>
+            </form>
         </div>
-    </header>
+    </div>
 </div>

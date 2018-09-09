@@ -12,19 +12,3 @@ body, html{
 .container{
     height: 100%;
 }
-
-.layOut header {
-    height: 6rem;
-    background-color: rgba(0,0,0,.7);
-    box-shadow: 0px 4px 4px rgba(0,0,0,0.5);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-.layOut header img{
-    height: 100%;
-    margin-left: 2rem;
-    vertical-align: top;
-}

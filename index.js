@@ -12,13 +12,16 @@ app.config(function ($routeProvider, $httpProvider) {
 });
 
 app.controller("mainCtrl", function ($scope) {
-    $scope.showLogo = function () {
+    $scope.showLogo = function (name) {
+        var imgName = "./imgs/" + name;
         layer.open({
             type: 1,
             title: "信息",
-            area: ['600px', '342px'],
+            area: ['50%', '50%'],
             shadeClose: 1,
-            content: "<div class='row '><img class='col-sm-6' src='./imgs/header.jpeg' style='height: 100%;'><div class='col-sm-6 pull-right'><p>姓名:<span>罗国梁</span></p></div></div>"
+            content: "<div style='height: 100%;' class='text-center'><img src='" +
+            imgName +
+            "'></div>"
         })
     }
 });
