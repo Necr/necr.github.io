@@ -12,7 +12,15 @@ app.config(function ($routeProvider, $httpProvider) {
 });
 
 app.controller("mainCtrl", function ($scope) {
-
+    $scope.showLogo = function () {
+        layer.open({
+            type: 1,
+            title: 0,
+            area: ['400px', '400px'],
+            shadeClose: 1,
+            content: "<img src='./imgs/header.jpeg'>"
+        })
+    }
 });
 
 app.controller("home", function ($scope) {
