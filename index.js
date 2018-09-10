@@ -17,11 +17,11 @@ app.controller("mainCtrl", function ($scope) {
         layer.open({
             type: 1,
             title: "信息",
-            area: ['50%', '50%'],
+            area: ['600px', '642px'],
             shadeClose: 1,
-            content: "<div style='height: 100%;' class='text-center'><img src='" +
+            content: "<img style='height: 100%;' src='" +
             imgName +
-            "'></div>"
+            "'>"
         })
     }
 });
